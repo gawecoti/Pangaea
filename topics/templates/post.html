@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %} Pangaea |  {% endblock %}
+
+{% block content %}
+    <h2> {% block woo.a %}{% endblock %}</h2>
+    <section id="summaries">
+        <ul>
+            {% for something %}
+                <li></li>
+            {% endfor %}
+        </ul>
+        <form action="">
+            <input type="text"/>
+        </form>
+    </section>
+    <section id="stories">
+        <ul>
+            {% for something %}
+                <li></li>
+            {% endfor %}
+        </ul>
+        <form action="">
+            <input type="text"/>
+        </form>
+    </section>
+{% endblock %}
+

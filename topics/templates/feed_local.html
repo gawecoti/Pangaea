@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{%  block title %} Title here {% endblock %}</title>
+    <link rel="stylesheet" href="{{ STATIC_URL }}css/main.css"/>
+    <link rel="stylesheet" href="{{ STATIC_URL }}css/feed.css"/>
+    <link rel="stylesheet" href="/Users/tgameco/Django/projects/pangaea/assets/css/main"/>
+    <link rel="stylesheet" href="/Users/tgameco/Django/projects/pangaea/assets/css/feed"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Pangaea</h1>
+            <button id="green">Login</button>
+            <button id="blue">Signup</button>
+        </nav>
+    </header>
+    <div id="content">
+        <!--Move to home.html -->
+        <div id="top">
+            <h2>Feed</h2>
+            <button id="orange">Add topic</button>
+        </div>
+        <div id="topics">
+            <ul>
+                <li>
+                    <img src="/Users/tgameco/Django/projects/pangaea/assets/img/occupy.jpg" alt="" height="150" width="200"/>
+                    <div class="bg"></div>
+                    <p class="text">Occupy Wall St.</p>
+                </li>
+                <li>
+                    <img src="/Users/tgameco/Django/projects/pangaea/assets/img/malaria.jpg" alt="" height="150" width="200"/>
+                    <div class="bg"></div>
+                    <p class="text">Malaria</p>
+                </li>
+                <li>
+                    <img src="/Users/tgameco/Django/projects/pangaea/assets/img/snowden.jpg" alt="" height="150" width="200"/>
+                    <div class="bg"></div>
+                    <p class="text">Edward Snowden Leaks</p>
+                </li>
+                <li>
+                    <img src="/Users/tgameco/Django/projects/pangaea/assets/img/syria.jpg" alt="" height="150" width="200"/>
+                    <div class="bg"></div>
+                    <p class="text">Syria</p>
+                </li>
+                <li>
+                    <img src="/Users/tgameco/Django/projects/pangaea/assets/img/snowden.jpg" alt="" height="150" width="200"/>
+                    <div class="bg"></div>
+                    <p class="text">Edward Snowden Leaks</p>
+                </li>
+                <li>
+                    <img src="/Users/tgameco/Django/projects/pangaea/assets/img/occupy.jpg" alt="" height="150" width="200"/>
+                    <div class="bg"></div>
+                    <p class="text">Occupy Wall St.</p>
+                </li>
+                <li>
+                    <img src="/Users/tgameco/Django/projects/pangaea/assets/img/malaria.jpg" alt="" height="150" width="200"/>
+                    <div class="bg"></div>
+                    <p class="text">Malaria</p>
+                </li>
+                <li>
+                    <img src="/Users/tgameco/Django/projects/pangaea/assets/img/syria.jpg" alt="" height="150" width="200"/>
+                    <div class="bg"></div>
+                    <p class="text">Syria</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+<footer>
+    <a href="">About</a>
+    <span>All rights reserved</span>
+</footer>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{%  block title %} Title here {% endblock %}</title>
+    <link rel="stylesheet" href="{{ STATIC_URL }}css/main.css"/>
+    <link rel="stylesheet" href="/Users/tgameco/Django/projects/pangaea/assets/css/main"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Pangaea</h1>
+            <button id="green">Login</button>
+            <button id="blue">Signup</button>
+        </nav>
+    </header>
+    <div id="content">
+        <!--Move to home.html -->
+        <h2>Understand and stay informed about the important global problems</h2>
+        <div class="img">
+           <img src="/Users/tgameco/Django/projects/pangaea/assets/img/syria.jpg" alt=""/>
+           <img src="/Users/tgameco/Django/projects/pangaea/assets/img/occupy.jpg" alt=""/>
+           <img src="/Users/tgameco/Django/projects/pangaea/assets/img/malaria.jpg" alt=""/>
+           <img src="/Users/tgameco/Django/projects/pangaea/assets/img/snowden.jpg" alt=""/>
+           <img src="/Users/tgameco/Django/projects/pangaea/assets/img/aids.jpg" alt=""/>
+
+        </div>
+        <button id="orange">Explore</button>
+
+        {% block content %} {% endblock %}
+        {% block main_content %}{% endblock %}
+    </div>
+</body>
+<footer>
+    <a href="">About</a>
+    <span>All rights reserved</span>
+</footer>
+</html>

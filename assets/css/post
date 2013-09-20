@@ -1,0 +1,80 @@
+/* Top section */
+#top {
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+#top h2 {
+    float: left;
+    margin-bottom: 10px;
+}
+
+/* Blocks section */
+.block {
+    float: left;
+    margin-bottom: 30px;
+    width: 500px;
+}
+
+.block h3 {
+    font-size: 20px;
+    margin: 0;
+    text-align: left;
+}
+
+.block ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 0
+}
+
+.block ul li {
+    background: #888888;
+    border-radius: 2px;
+    margin: 0 10px 10px 0;
+    padding: 10px;
+}
+
+.block ul li:hover {
+    background-color: #777777;
+    cursor: pointer;
+    transition: 0.15s ease-in-out;
+}
+
+/* Textarea */
+.input {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.input textarea, input {
+    border: none;
+    border-radius: 2px;
+    height: 100px;
+    margin-top: 10px;
+    padding-left: 5px;
+    width: 485px;
+}
+
+.input input {
+    height: 25px;
+    width: 485px;
+}
+
+.input input:first-of-type{
+    margin-bottom: 20px;
+}
+
+#orange {
+    float: right;
+    font-size: 14px;
+    margin-right: 10px;
+    width: 80px;
+}
+
+:focus {
+    outline: none;
+}
+
+
+
