@@ -3,13 +3,15 @@
 {% block title %} Pangaea | Home {% endblock %}
 
 {% block content %}
-    <h2>Understand and stay informed about the important global problems</h2>
-    <section>
-        <ul>
-            <li><h3>The Syrian Revolution</h3><img src="" alt=""/></li>
-            <li><h3>Snowden Leaks</h3><img src="" alt=""/></li>
-            <li><h3>Malaria Disease</h3><img src="" alt=""/></li>
-            <li><h3>HIV epidemic</h3><img src="" alt=""/></li>
-        </ul>
-    </section>
+     <h2>Understand and stay informed about the important global problems</h2>
+     <div class="img">
+        <img src="{{ STATIC_URL }}/img/syria.jpg" alt="Syria"/>
+        <img src="{{ STATIC_URL }}/img/occupy.jpg" alt="Occupy Wall St."/>
+        <img src="{{ STATIC_URL }}/img/malaria.jpg" alt="Malaria"/>
+        <img src="{{ STATIC_URL }}/img/snowden.jpg" alt="Edward Snowden"/>
+        <img src="{{ STATIC_URL }}/img/aids.jpg" alt="AIDS"/>
+      </div>
+     <form action="/pangaea">
+        <button id="orange">Explore</button>
+     </form>
 {% endblock %}

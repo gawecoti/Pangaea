@@ -1,0 +1,102 @@
+/* Post.css */
+
+/* Top section */
+#top {
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+#top h2 {
+    float: left;
+    margin-bottom: 10px;
+}
+
+/* Blocks section */
+.block {
+    float: left;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+.block h3 {
+    font-size: 20px;
+    margin: 0;
+    text-align: left;
+}
+
+.block ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 0
+}
+
+.block ul li {
+    background: #888888;
+    border-radius: 2px;
+    margin: 0 10px 10px 0;
+    padding: 10px;
+}
+
+.block ul li:hover {
+    background-color: #777777;
+    transition: 0.15s ease-in-out;
+}
+
+/* Text input forms */
+.input {
+    font-weight: 100;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.input textarea, input[type="text"] {
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    font-family: Helvetica, Arial;
+    height: 100px;
+    margin-top: 10px;
+    padding: 3px 0 0 5px;
+    width: 97%;
+}
+
+.input input[type="text"] {
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.input input[type="submit"] {
+    color: white;
+    height: 30px;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+}
+
+.input input:first-of-type{
+    margin-bottom: 20px;
+}
+
+#orange {
+    float: right;
+    font-size: 14px;
+    margin-right: 10px;
+    width: 80px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Story */
+#story h4 {
+    float: left;
+    font-weight: 100;
+    margin: 0 200px 0 0;
+}
+
+#story p {
+    float: right;
+}
+
+#summary span {
+    font-weight: 100;
+}

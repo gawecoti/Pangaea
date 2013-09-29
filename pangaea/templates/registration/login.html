@@ -1,27 +1,43 @@
-{% extends "registration/base.html" %}
+{% extends "base.html" %}
+{% load widget_tweaks %}
 
 {% block title %}Log in{% endblock %}
 
+{% block css-link %}
+<link rel="stylesheet" href="{{ STATIC_URL }}css/account.css"/>
+{% endblock %}
+
 {% block content %}
 
-<h1>Log in</h1>
+<div id="box">
+    <div id="inner-box">
+        <h2>Log in</h2>
 
-{% if form.errors %}
-<p class="error">Please correct the errors below:</p>
-{% endif %}
+        {% if form.errors %}
+        <p class="error">Please correct the errors below:</p>
+        {% endif %}
 
-<form method="post" action="?next={{ next|default:"/" }}">{% csrf_token %}
-<dl>
-<dt><label for="id_username">Username:</label>{% if form.username.errors %} <span class="error">{{ form.username.errors|join:", " }}</span>{% endif %}</dt>
-<dd>{{ form.username }}</dd>
-<dt><label for="id_password">Password:</label>{% if form.password.errors %} <span class="error">{{ form.password.errors|join:", " }}</span>{% endif %}</dt>
-<dd>{{ form.password }}</dd>
-<dt><input type="submit" value="Log in" /></dt>
-</dl>
-</form>
+        <form method="post" action="?next={{ next|default:"/" }}">
+            {% csrf_token %}
+            <dl id="form">
+                <dt>
+                     {% if form.username.errors %} <span class="error">{{ form.username.errors|join:", " }}</span>{% endif %}
+                     {{ form.username|attr:"placeholder:Username" }}
+                </dt>
+                <dt>
+                     {% if form.password.errors %} <span class="error">{{ form.password.errors|join:", " }}</span>{% endif %}
+                     {{ form.password|attr:"placeholder:Password" }}
+                </dt>
+                <dt id="button">
+                      <input id="orange" type="submit" value="Submit"/>
+                </dt>
+            </dl>
+        </form>
+    </div>
+</div>
+
 {% endblock %}
 
 {% block content-related %}
-<p>If you don't have an account, you can <a href="/accounts/register/">sign
-up</a> for one.
+<p>If you don't have an account, <a class="underline" href="/accounts/register/">sign up</a> for one.
 {% endblock %}

@@ -58,7 +58,7 @@ MEDIA_ROOT = root("..", "uploads")
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
 # Examples: "http://example.com/media/", "http://media.example.com/"
-MEDIA_URL = ''
+MEDIA_URL = '/media/'
 
 # Absolute path to the directory static files should be collected to.
 # Don't put anything in this directory yourself; store your static files
@@ -116,6 +116,7 @@ TEMPLATE_DIRS = (
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
     root("templates"),
+    "/vagrant/projects/pangaea/topics/templates"
 )
 
 DJANGO_APPS = (
@@ -125,6 +126,7 @@ DJANGO_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.humanize',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
@@ -134,10 +136,12 @@ DJANGO_APPS = (
 THIRD_PARTY_APPS = (
     'south',
     'registration',
+    'widget_tweaks',
+    'django_extensions',
 )
 
 LOCAL_APPS = (
-
+    'topics',
 )
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
@@ -171,10 +175,13 @@ LOGGING = {
     }
 }
 
-# Reigstration configs
-
+# Registration configs
 ACCOUNT_ACTIVATION_DAYS = 7
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_FILE_PATH = '/pangaea/templates/registration/'
 EMAIL_HOST = 'localhost'
-EMAIL_PORT = 1023
-EMAIL_HOST_USER = 'username'
-EMAIL_HOST_PASSWORD = 'password'
+EMAIL_PORT = 1025
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
+EMAIL_USE_TLS = False
+DEFAULT_FROM_EMAIL = 'testing@example.com'

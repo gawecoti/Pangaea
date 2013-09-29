@@ -5,24 +5,35 @@
     <ignored path="pangaea.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/settings.py" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1379273665386" ignored="false" />
-    <file path="/base.py" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1379273996794" ignored="false" />
+    <file path="/base.py" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1380425273366" ignored="false" />
     <file path="/local.py" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1379273821875" ignored="false" />
     <file path="$PROJECT_DIR$/../lending/lending/settings/base.py" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1379274009579" ignored="false" />
-    <file path="/urls.py" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1379643843633" ignored="false" />
-    <file path="/models.py" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1379278806464" ignored="false" />
-    <file path="/home.html" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1379289851266" ignored="false" />
-    <file path="/feed.html" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1379290466535" ignored="false" />
-    <file path="/base.html" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1379471293473" ignored="false" />
-    <file path="/dummy.xml" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1379559317335" ignored="false" />
-    <file path="/post.html" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1379291213441" ignored="false" />
+    <file path="/urls.py" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1380415320999" ignored="false" />
+    <file path="/models.py" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1380418936823" ignored="false" />
+    <file path="/home.html" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1379799811757" ignored="false" />
+    <file path="/feed.html" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1380483009587" ignored="false" />
+    <file path="/base.html" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1380489322404" ignored="false" />
+    <file path="/dummy.xml" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1380076964666" ignored="false" />
+    <file path="/post.html" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1380494456462" ignored="false" />
     <file path="/.gitignore" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1379292535400" ignored="false" />
     <file path="/main" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1379558485286" ignored="false" />
-    <file path="/feed_local.html" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1379644889679" ignored="false" />
+    <file path="/feed_local.html" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1379646535002" ignored="false" />
     <file path="/feed" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1379642172552" ignored="false" />
     <file path="/post_local.html" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1379644925171" ignored="false" />
     <file path="/post" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1379642000786" ignored="false" />
-    <file path="/views.py" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1379644941472" ignored="false" />
+    <file path="/views.py" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1380417958698" ignored="false" />
     <file path="$USER_HOME$/PycharmProjects/intro_django/projects/microblog/blog/urls.py" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1379643027836" ignored="false" />
+    <file path="/main.css" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1380490506744" ignored="false" />
+    <file path="/admin.py" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1380332616714" ignored="false" />
+    <file path="/login.html" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1379892583956" ignored="false" />
+    <file path="/account" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1379815827224" ignored="false" />
+    <file path="/post.css" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1380494460474" ignored="false" />
+    <file path="/account.css" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1379892314405" ignored="false" />
+    <file path="/registration_form.html" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1379892087271" ignored="false" />
+    <file path="/forms.py" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1380419258592" ignored="false" />
+    <file path="/modal_config.js" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1380077186863" ignored="false" />
+    <file path="/feed.css" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1380491196487" ignored="false" />
+    <file path="/success.html" changelist="3d27ab63-7df1-44c4-bb39-f0e511f6dd20" time="1380246537249" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,70 +53,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/topics/models.py">
+      <file leaf-file-name="base.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pangaea/settings/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
+            <state line="180" column="51" selection-start="5862" selection-end="5862" vertical-scroll-proportion="-17.36">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/topics/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="10" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/topics/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="26" selection-start="307" selection-end="307" vertical-scroll-proportion="0.3085443">
-              <folding>
-                <element signature="e#0#53#0" expanded="true" />
-              </folding>
+            <state line="42" column="32" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pangaea/urls.py">
+      <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/topics/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="42" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/topics/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="1" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
+            <state line="16" column="25" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/topics/templates/base.html">
+        <entry file="file://$PROJECT_DIR$/pangaea/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="13" column="27" selection-start="478" selection-end="478" vertical-scroll-proportion="-8.125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="feed_local.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/topics/templates/feed_local.html">
+      <file leaf-file-name="post.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/topics/templates/post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="6" selection-start="420" selection-end="420" vertical-scroll-proportion="-5.625">
+            <state line="14" column="23" selection-start="335" selection-end="335" vertical-scroll-proportion="-5.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post_local.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/topics/templates/post_local.html">
+      <file leaf-file-name="post.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/css/post.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="61" selection-start="220" selection-end="220" vertical-scroll-proportion="-3.125">
+            <state line="40" column="30" selection-start="550" selection-end="550" vertical-scroll-proportion="0.36044657">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="24" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -121,29 +135,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/pangaea/templates/base.html" />
-        <option value="$PROJECT_DIR$/pangaea/templates/feed.html" />
-        <option value="$PROJECT_DIR$/pangaea/templates/registration/feed_local.html" />
-        <option value="$PROJECT_DIR$/pangaea/templates/feed_local.html" />
-        <option value="$PROJECT_DIR$/assets/css/main" />
-        <option value="$PROJECT_DIR$/pangaea/templates/post_local.html" />
-        <option value="$PROJECT_DIR$/assets/css/post" />
-        <option value="$PROJECT_DIR$/assets/css/feed" />
-        <option value="$PROJECT_DIR$/pangaea/templates/views.py" />
-        <option value="$PROJECT_DIR$/pangaea/views.py" />
+        <option value="$PROJECT_DIR$/assets/js/modal_config.js" />
+        <option value="$PROJECT_DIR$/topics/templates/success.html" />
         <option value="$PROJECT_DIR$/pangaea/urls.py" />
+        <option value="$PROJECT_DIR$/topics/admin.py" />
         <option value="$PROJECT_DIR$/topics/urls.py" />
-        <option value="$PROJECT_DIR$/topics/templates/feed_local.html" />
-        <option value="$PROJECT_DIR$/topics/templates/post_local.html" />
         <option value="$PROJECT_DIR$/topics/views.py" />
+        <option value="$PROJECT_DIR$/topics/models.py" />
+        <option value="$PROJECT_DIR$/topics/forms.py" />
+        <option value="$PROJECT_DIR$/pangaea/settings/base.py" />
+        <option value="$PROJECT_DIR$/pangaea/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/topics/templates/feed.html" />
+        <option value="$PROJECT_DIR$/pangaea/templates/base.html" />
+        <option value="$PROJECT_DIR$/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/assets/css/feed.css" />
+        <option value="$PROJECT_DIR$/topics/templates/post.html" />
+        <option value="$PROJECT_DIR$/assets/css/post.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="780" />
+    <option name="height" value="775" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -246,11 +260,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pangaea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -265,6 +275,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -284,18 +298,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/js" />
       <recent name="$PROJECT_DIR$/topics/templates" />
       <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/templates/registration" />
-      <recent name="$PROJECT_DIR$/pangaea/settings" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img" />
+      <recent name="$PROJECT_DIR$/topics" />
       <recent name="$PROJECT_DIR$/topics/templates" />
       <recent name="$PROJECT_DIR$/pangaea" />
       <recent name="$PROJECT_DIR$/pangaea/templates" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/pangaea/settings" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.pangaea">
@@ -426,14 +440,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="780" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="775" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1276901" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25609756" sideWeight="0.67230767" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -442,7 +456,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -509,72 +523,54 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pangaea/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/pangaea/templates/registration/activate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pangaea/templates/registration/base.html">
+    <entry file="file://$PROJECT_DIR$/topics/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="67" selection-start="193" selection-end="193" vertical-scroll-proportion="0.04918033">
+        <state line="42" column="32" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/topics/templates/feed.html">
+    <entry file="file://$PROJECT_DIR$/pangaea/templates/registration/registration_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
+        <state line="18" column="36" selection-start="468" selection-end="468" vertical-scroll-proportion="0.024875622">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/main">
+    <entry file="file://$PROJECT_DIR$/pangaea/templates/registration/activation_email_subject.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="16" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pangaea/templates/registration/activation_email.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pangaea/settings/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="180" column="51" selection-start="5862" selection-end="5862" vertical-scroll-proportion="-17.36">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/topics/templates/post.html">
+    <entry file="file://$PROJECT_DIR$/pangaea/templates/registration/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/post">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="19" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/feed">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="23" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pangaea/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="118" selection-end="118" vertical-scroll-proportion="0.102389075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pangaea/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="7" selection-start="257" selection-end="257" vertical-scroll-proportion="-0.625">
+        <state line="19" column="36" selection-start="426" selection-end="454" vertical-scroll-proportion="-7.625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pangaea/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="42" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
+        <state line="19" column="44" selection-start="667" selection-end="667" vertical-scroll-proportion="0.4718543">
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
@@ -583,47 +579,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/topics/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="1" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
+        <state line="10" column="81" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/feed.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="14" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.569378">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/topics/templates/feed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="15" selection-start="1256" selection-end="1256" vertical-scroll-proportion="0.6965174">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pangaea/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="27" selection-start="478" selection-end="478" vertical-scroll-proportion="-8.125">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/topics/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
+        <state line="31" column="10" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/topics/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="16" column="24" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/topics/templates/post_local.html">
+    <entry file="file://$PROJECT_DIR$/topics/templates/post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="61" selection-start="220" selection-end="220" vertical-scroll-proportion="-3.125">
+        <state line="14" column="23" selection-start="335" selection-end="335" vertical-scroll-proportion="-5.625">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/topics/templates/feed_local.html">
+    <entry file="file://$PROJECT_DIR$/assets/css/post.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="420" selection-end="420" vertical-scroll-proportion="-5.625">
+        <state line="40" column="30" selection-start="550" selection-end="550" vertical-scroll-proportion="0.36044657">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/topics/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="26" selection-start="307" selection-end="307" vertical-scroll-proportion="0.3085443">
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

@@ -1,28 +1,61 @@
 {% extends 'base.html' %}
 
-{% block title %} Pangaea |  {% endblock %}
+{% block css-link %}
+    <link rel="stylesheet" href="{{ STATIC_URL }}css/post.css"/>
+{% endblock %}
+
+{% block title %} Pangaea | {{ topic.name }}  {% endblock %}
 
 {% block content %}
-    <h2> {% block woo.a %}{% endblock %}</h2>
-    <section id="summaries">
-        <ul>
-            {% for something %}
-                <li></li>
+    <div id="top">
+        <h2>Post</h2>
+    </div>
+    <div class="block">
+        <h3>Summary</h3>
+        <ul id="summary">
+            {% for summary in summary_list %}
+                <li><span>{{ summary.text }}</span></li>
             {% endfor %}
         </ul>
-        <form action="">
-            <input type="text"/>
-        </form>
-    </section>
-    <section id="stories">
-        <ul>
-            {% for something %}
-                <li></li>
-            {% endfor %}
-        </ul>
-        <form action="">
-            <input type="text"/>
-        </form>
-    </section>
+        {% if user.is_authenticated %}
+        <div class="input">
+            <form action="/pangaea/topic/summary/add/" method="post">
+                {% csrf_token %}
+                <label for="">Enter your summary</label>
+                <textarea name="text" cols="30" rows="10" placeholder="Summary..."></textarea>
+                <input type="text" name="title" value="{{ topic.name }}" class="hidden"/>
+                <input type="text" name="slug" value="{{ topic.slug }}" class="hidden"/>
+                <input type="submit" id="orange" value="Submit"/>
+            </form>
+        </div>
+        {% endif %}
+    </div>
+    <div class="block">
+        <h3>Stories</h3>
+            <ul>
+                {% for story in story_list %}
+                    <a href="http://{{ story.url }}">
+                        <li id="story">
+                            <h4>{{ story.story_title }}</h4>
+                            <span>{{ story.url }}</span>
+                        </li>
+                    </a>
+                {% endfor %}
+            </ul>
+            {% if user.is_authenticated %}
+            <div class="input">
+                <form action="/pangaea/topic/story/add/" method="post">
+                    {% csrf_token %}
+                    <label for="">Enter title for story</label>
+                    <input name="story_title" type="text" placeholder="Title"/>
+                    <label for="">URL</label>
+                    <input name="url" type="text" placeholder="URL"/>
+                    <input type="text" name="title" value="{{ topic.name }}" class="hidden"/>
+                    <input type="text" name="slug" value="{{ topic.slug }}" class="hidden"/>
+                    <input type="submit" id="orange" value="Submit"/>
+                </form>
+            </div>
+            {% endif %}
+        </div>
 {% endblock %}
 

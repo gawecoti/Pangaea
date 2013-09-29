@@ -1,17 +1,99 @@
-<!--{% extends 'base.html' %}
+{% extends 'base.html' %}
+{% load widget_tweaks %}
+
+{% block css-link %}
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}/js/jquery.easyModal.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}/js/modal_config.js"></script>
+    <link rel="stylesheet" href="{{ STATIC_URL }}css/feed.css"/>
+{% endblock %}
 
 {% block title %} Pangaea | Feed {%  endblock %}
 
 {% block content %}
-    <h2>Feed</h2>
-    <button>Add topic</button>
-    <ul>
-    {%  for something %}
-        <li>
-            <span></span>
-            <img src="" alt=""/>
-        </li>
-    {% endfor %}
-    </ul>
-{% endblock %}-->
+    <div id="top">
+        <h2>Feed</h2>
+        {% if user.is_authenticated %}
+        <button id="orange" class="add_topic">Add topic</button>
+        {% endif %}
+    </div>
+    <div class="modal">
+        <h3>Add topic</h3>
+        <form id="topic_form" action="/pangaea/topic/add/" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+            <input type="text" name="name" placeholder="Topic title"/>
+            <label for="">Image:</label><input type="file" name="pic" value="Add image"/>
+            <input type="submit" id="orange" value="Submit"/>
+        </form>
+    </div>
+    <div id="topics">
+        <ul>
+        {% for topic in topic_list %}
+            <li>
+                <a href="/pangaea/{{ topic.slug }}">
+                    <img src="{{ MEDIA_URL }}{{ topic.pic }}" alt="" height="150" width="200"/>
+                    <div class="bg"></div>
+                    <p class="text">{{ topic.name }}</p>
+                </a>
+            </li>
+        {% endfor %}
+            <li>
+                <a href="/pangaea/">
+                    <img src="{{ STATIC_URL }}img/occupy.jpg" alt="" height="150" width="200"/>
+                    <div class="bg"></div>
+                    <p class="text">Occupy Wall St.</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="{{ STATIC_URL }}img/malaria.jpg" alt="" height="150" width="200"/>
+                    <div class="bg"></div>
+                    <p class="text">Malaria</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="{{ STATIC_URL }}img/snowden.jpg" alt="" height="150" width="200"/>
+                    <div class="bg"></div>
+                    <p class="text">Edward Snowden Leaks</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="{{ STATIC_URL }}img/syria.jpg" alt="" height="150" width="200"/>
+                    <div class="bg"></div>
+                    <p class="text">Syria</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="{{ STATIC_URL }}img/snowden.jpg" alt="" height="150" width="200"/>
+                    <div class="bg"></div>
+                    <p class="text">Edward Snowden Leaks</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="{{ STATIC_URL }}img/occupy.jpg" alt="" height="150" width="200"/>
+                    <div class="bg"></div>
+                    <p class="text">Occupy Wall St.</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="{{ STATIC_URL }}img/malaria.jpg" alt="" height="150" width="200"/>
+                    <div class="bg"></div>
+                    <p class="text">Malaria</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="{{ STATIC_URL }}img/syria.jpg" alt="" height="150" width="200"/>
+                    <div class="bg"></div>
+                    <p class="text">Syria</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+{% endblock %}
 

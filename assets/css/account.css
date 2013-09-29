@@ -1,0 +1,35 @@
+/* Boxes */
+#box {
+    background-color: #444444;
+    border-radius: 2px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px;
+    width: 500px;
+}
+
+#inner-box {
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+}
+
+/* Form and buttons */
+#form input {
+    font-size: 14px;
+    margin: 0 0 15px 5px;
+    width: 215px;
+    height: 30px;
+}
+
+#button input {
+    background-color: #FFBF00;
+    border: none;
+    border-radius: 2px;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 5px;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+    width: 220px;
+}
